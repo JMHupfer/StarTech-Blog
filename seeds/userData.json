@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Nyota Uhura",
+      "email": "nuhura@hotmail.com",
+      "password": "password12345"
+    },
+    {
+      "name": "James Kirk",
+      "email": "jkirk@gmail.com",
+      "password": "password12345"
+    },
+    {
+      "name": "Bones McCoy",
+      "email": "bmccoy@aol.com",
+      "password": "password12345"
+    }
+  ]

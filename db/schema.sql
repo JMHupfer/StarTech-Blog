@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS starTech_db;
+CREATE DATABASE starTech_db;

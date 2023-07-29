@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Why I Love JavaScript",
+      "content": "JavaScript is versatile, powerful, and ubiquitous",
+      "user_id": 1
+    },
+    {
+      "title": "Why I Love React",
+      "content": "React is simple, readable, and elegant",
+      "user_id": 2
+    },
+    {
+      "title": "Why I Love MySql",
+      "content": "MySQL is a powerful database tool",
+      "user_id": 3
+    }
+  ]
