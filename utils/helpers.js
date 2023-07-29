@@ -1,27 +1,24 @@
 module.exports = {
-  format_date: (date) => {
-      // Check if date is not a Date object
-      if (!(date instanceof Date)) {
-          // Convert it to a Date object
-          date = new Date(date);
+    format_date: (date) => {
+      if (!(date instanceof Date) || isNaN(date)) {
+        return '';
       }
-      // Format date as MM/DD/YYYY
       return date.toLocaleDateString();
-  },
-  format_amount: (amount) => {
-      // format large numbers with commas
-      return parseInt(amount).toLocaleString();
-  },
-  get_emoji: () => {
-      const randomNum = Math.random();
+    },
   
-      // Return a random emoji
+    format_amount: (amount) => {
+      return parseInt(amount).toLocaleString();
+    },
+  
+    get_emoji: () => {
+      const randomNum = Math.random();
       if (randomNum > 0.7) {
-          return `<span for="img" aria-label="lightbulb">💡</span>`;
+        return `<span for="img" aria-label="lightbulb">💡</span>`;
       } else if (randomNum > 0.4) {
-          return `<span for="img" aria-label="laptop">💻</span>`;
+        return `<span for="img" aria-label="laptop">💻</span>`;
       } else {
-          return `<span for="img" aria-label="gear">⚙️</span>`;
+        return `<span for="img" aria-label="gear">⚙️</span>`;
       }
-  },
-};
+    },
+  };
+  
