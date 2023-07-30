@@ -17,6 +17,10 @@
     "express-session": "^1.17.3",
     "mysql2": "^3.5.2",
     "nodemon": "^3.0.1",
-    "sequelize": "^6.32.1"
+    "npm": "^9.8.1",
+    "run": "^1.4.0",
+    "seed": "^0.4.4",
+    "sequelize": "^6.32.1",
+    "start": "^5.1.0"
   }
 }
