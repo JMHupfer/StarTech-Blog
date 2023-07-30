@@ -44,7 +44,7 @@
 
   ## Tests
 
-  - The best way to test this project is to run the app create an account and test it out! (Like I said though, comments and logging out are not working yet. I also am having trouble getting the date to work but I've got too many assignments to turn in to get the heavy details!)
+  - The best way to test this project is to run the app create an account and test it out! (Please refer to usage for content still being worked on).
 
   ## Questions
 
